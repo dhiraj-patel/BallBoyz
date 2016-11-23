@@ -1,33 +1,59 @@
-<!DOCTYPE html>
-<html
-    <head>
-        <title> hi </title>
-        <link rel="stylesheet" href="css/foundation.css">
-    </head>
-    <body>
-        <a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">Dropdown</a>
-        <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-            <li><a href="#">Hey</a></li>
-            <li><a href="#">Pick me</a></li>
-            <li><a href="#">No, me!</a></li>
-        </ul>
-
-        <p> Hey there! </p>
-        <img src = "download.jpg">
-        <div class="row">
-            <div class="small-2 columns">We got a lotta text. Its some reall good text but it is soo compressed. THe following text in the other columjn will be much more expansioneneed</div>
-            <div class="small-10 columns">Mad wiiiiiiiideeeeee It is very much wider column then the other one</div>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Site</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>This is a website</h1>
+      </div>
+    </div>
+    <div class="row">
+        <div class="medium-12 columns">
+            <p> pls like our site </p>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <input type="radio" name="likeus" value="Yes" id="likeusYes"><label for="Yes">Yes</label>
+            <input type="radio" name="likeus" value="In a sec" id="likeusNo"><label for="No">In a sec</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-4 columns">
+            <div class="callout">
+                <p> Share our site on social media! </p>
+                <p><a href="http://twitter.com" class="button">Twitter</a></p>
+                <p><a href="http://facebook.com" class="button">Facebook</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-4 columns">
+                <img src="dog.jpg" alt="Dog pic here"/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <form>
+          <div class="row">
+            <div class="large-12 columns">
+              <label>Like our site? Register so we can sell your email to spammers!</label>
+              <input type="text" placeholder="you@site.com" />
+            </div>
+          </div>
+        </form>
+        <p><a href="#" class="button">Submit</a></p>
+    </div>
 
-        <a href="http://justflipacoin.com/" class="button tiny">Heads or Tails</a><br>
-        <a href="http://justflipacoin.com/" class="button small">Heads or Tails</a><br>
-        <a href="http://justflipacoin.com/" class="button">Heads or Tails</a><br>
-        <a href="http://justflipacoin.com/" class="button disabled">Heads or Tails</a><br>
-        <a href="http://justflipacoin.com/" class="button large">Heads or Tails</a><br>
-        <a href="http://justflipacoin.com/" class="button expand">Heads or Tails</a><br>
-        <a href="http://justflipacoin.com/" class="button round">Heads or Tails</a><br>
-        <a href="http://justflipacoin.com/" class="button radius">Heads or Tails</a><br>
-    </body>
-
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
